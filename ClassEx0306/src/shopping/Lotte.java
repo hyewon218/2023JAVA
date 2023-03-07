@@ -6,7 +6,7 @@ public class Lotte {
 		
 		public String buying(int money) {
 			//롯데백화점의 상품금액(샌달)을 money로 전달받아서 손님이 지불한 금액과 같으면
-			//현대백화점의 매출 증가
+			//롯데백화점의 매출 증가
 			//메세지 콘솔에 출력
 			this.money +=money;
 			if(money==Product.Lsandal) {
